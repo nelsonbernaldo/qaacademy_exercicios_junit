@@ -19,14 +19,14 @@ public class TestExercicio08_easy {
     @Test
     public void testeSalarioPrimeiraFaixaIR() {
 
-        String valorEsperado = "0,0";
+        String valorEsperado = "0.0";
         Double valorAtual = exercicio08_easy.calculaImpostoDeRenda(1903.98);
         Assert.assertEquals(valorEsperado, valorAtual.toString());
     }
 
     @Test
     public void testeSalarioSegundaFaixaIr() {
-        String valorEsperado = "0,0";
+        String valorEsperado = "0.0";
         Double valorAtual = exercicio08_easy.calculaImpostoDeRenda(1903.99);
         Assert.assertEquals(valorEsperado, valorAtual.toString());
     }
