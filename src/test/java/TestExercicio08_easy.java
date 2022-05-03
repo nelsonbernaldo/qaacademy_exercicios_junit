@@ -51,7 +51,7 @@ public class TestExercicio08_easy {
         @Test
         public void testeSalarioTerceiraFaixaIrSegundaCondicao() {
     
-            String valorEsperado = "207,o86";
+            String valorEsperado = "207,86";
             String valorAtual = decimalFormat.format(exercicio08_easy.calculaImpostoDeRenda(3751.05));
             Assert.assertEquals(valorEsperado, valorAtual);
         }
